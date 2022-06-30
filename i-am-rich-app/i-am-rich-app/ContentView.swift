@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(.systemTeal)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("I'am Rich")
+                Text("I Am Rich")
                     .foregroundColor(.white)
                     .font(.system(size: 40))
                     .fontWeight(.bold)
