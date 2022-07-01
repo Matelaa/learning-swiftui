@@ -15,7 +15,6 @@ class PostViewModel: ObservableObject {
     func getPostsViewModel() {
         self.postService.getPosts { posts in
             self.posts = posts
-            print(self.posts)
         }
     }
 }
